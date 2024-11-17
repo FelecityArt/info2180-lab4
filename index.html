@@ -1,16 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Avengers Character Search</title>
+    <title>Superhero Search</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="app.js" defer></script>
 </head>
 <body>
-    <container id="flex-container">
+    <div id="flex-container">
         <h1>Avengers Character Search</h1>
-        <button id="searchBtn">Search</button>
-    </container>
+        <div id="search-container">
+            <input type="text" id="searchInput" placeholder="Enter superhero name">
+            <button id="searchBtn">Search</button>
+        </div>
+        <hr>
+        <div id="result"></div>
+    </div>
+    <script src="app.js"></script>
 </body>
 </html>

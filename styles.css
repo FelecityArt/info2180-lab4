@@ -20,8 +20,19 @@ h1 {
     font-size: 2rem;
 }
 
+#search-container {
+    margin-bottom: 1.25rem;
+}
+
+#searchInput {
+    padding: 0.625rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 0.3125rem;
+    margin-right: 0.625rem;
+}
+
 #searchBtn {
-    display: block;
     padding: 0.625rem 1.25rem;
     font-size: 1rem;
     background-color: #4CAF50;
@@ -33,4 +44,35 @@ h1 {
 
 #searchBtn:hover {
     background-color: #45a049;
+}
+
+hr {
+    width: 100%;
+    margin: 0 0 1.25rem 0;
+    border: 0;
+    border-top: 1px solid #ddd;
+}
+
+#result {
+    width: 100%;
+    max-width: 40rem;
+    padding: 1.25rem;
+    background-color: white;
+    border-radius: 0.3125rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#result h3 {
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+#result h4 {
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+#result p {
+    color: #444;
+    line-height: 1.5;
 }
